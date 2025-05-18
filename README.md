@@ -2,7 +2,7 @@
 
 This repository contains my solutions to the SQL Proficiency Assessment. The goal is to demonstrate expertise in data retrieval, transformation, and analysis using SQL, applied to real-world business scenarios.
 
-## 📁 Repository Structure
+## Repository Structure
 │
 ├── Assessment_Q1.sql
 ├── Assessment_Q2.sql
@@ -73,11 +73,10 @@ The goal of this assessment is to demonstrate proficiency in SQL by solving prac
  
 ##  Challenges Encountered
  
-- - **Ambiguous Columns**: Resolved using explicit table aliases in joins.
+- **Ambiguous Columns**: Resolved using explicit table aliases in joins.
 - **Currency Normalization**: Handled conversion of values stored in kobo to naira where needed for clarity and correctness.
 - **Missing Data**: Addressed plans with no transactions using left joins and fallback values (`COALESCE`).
 
----
 
 ##  Notes
 
