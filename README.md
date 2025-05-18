@@ -14,7 +14,7 @@ This repository contains my solutions to the SQL Proficiency Assessment. The goa
 
 ---
 
-## ✅ Assessment Overview
+## Assessment Overview
 
 The goal of this assessment is to demonstrate proficiency in SQL by solving practical business problems using realistic data. The database included the following core tables:
 
@@ -25,9 +25,9 @@ The goal of this assessment is to demonstrate proficiency in SQL by solving prac
 
 ---
 
-## 💡 Question-by-Question Explanation
+## Question-by-Question Explanation
 
-### 🔹 Q1: High-Value Customers with Multiple Products
+###  Q1: High-Value Customers with Multiple Products
 
 **Task**: Identify customers with both funded savings and investment plans, sorted by total deposits.
 
@@ -37,7 +37,7 @@ The goal of this assessment is to demonstrate proficiency in SQL by solving prac
 - Group by customer and count the number of distinct savings and investment plans
 - Order by total deposits in descending order
 
-### 🔹 Q2: Transaction Frequency Analysis
+###  Q2: Transaction Frequency Analysis
 
 **Task**: Determine how frequently customers transact and categorize them as High, Medium, or Low frequency users.
 
@@ -50,7 +50,7 @@ The goal of this assessment is to demonstrate proficiency in SQL by solving prac
   - Low Frequency: ≤2
 - Aggregate the number of customers in each bucket
 
-### 🔹 Q3: Account Inactivity Alert
+###  Q3: Account Inactivity Alert
 
 **Task**: Identify active accounts that have not had inflow transactions for over a year.
 
@@ -60,7 +60,7 @@ The goal of this assessment is to demonstrate proficiency in SQL by solving prac
 - Calculate `inactivity_days` by comparing with the current date
 - Select those where `inactivity_days > 365`
 
-### 🔹 Q4: Customer Lifetime Value (CLV) Estimation
+###  Q4: Customer Lifetime Value (CLV) Estimation
 
 **Task**: Estimate CLV using transaction count and tenure since signup.
 
@@ -71,7 +71,7 @@ The goal of this assessment is to demonstrate proficiency in SQL by solving prac
 - Assume profit per transaction is 0.1% of transaction value
 - Order by estimated CLV in descending order
  
-## ⚠️ Challenges Encountered
+##  Challenges Encountered
  
 - - **Ambiguous Columns**: Resolved using explicit table aliases in joins.
 - **Currency Normalization**: Handled conversion of values stored in kobo to naira where needed for clarity and correctness.
@@ -79,7 +79,7 @@ The goal of this assessment is to demonstrate proficiency in SQL by solving prac
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - Queries are optimized for clarity and correctness.
 - Proper indentation, aliasing, and comments were used throughout.
